@@ -7,6 +7,7 @@ if else o/p:
 ![image](https://github.com/user-attachments/assets/a98c7aa9-4edc-4cd5-af62-77602c692421)
 
 nested if else o/p:
+
 ![image](https://github.com/user-attachments/assets/2ba17975-b872-4b1f-a4b7-2807e07f690d)
 
 break o/p:
