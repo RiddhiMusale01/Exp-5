@@ -80,7 +80,7 @@ int main() {
 
 o/p:
 
-o/p:![image](https://github.com/user-attachments/assets/57c88e6e-7c87-4fea-bfee-e9fd1c8c23f7)
+![image](https://github.com/user-attachments/assets/57c88e6e-7c87-4fea-bfee-e9fd1c8c23f7)
 
 else if:
 ```
@@ -105,7 +105,6 @@ int main() {
 }
 ```
 o/p:
-
 
 ![image](https://github.com/user-attachments/assets/b2735f78-49c2-4a3c-8de7-6159f328be57)
 
