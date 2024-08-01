@@ -26,66 +26,89 @@ if else:
 ```
 #include <iostream>
 using namespace std;
-int main(){
-    int a=34,b=44;
-    if(a>b){
-        cout<<"a is greater than b";
 
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >>n;
+
+    if (n>= 0) {
+        cout << "The number is non-negative." << endl;
+    } else {
+        cout << "The number is negative." << endl;
     }
-    else if(a<b){
-        cout<<"b is greater than a ";
 
+    return 0;
+}
+```
+o/p:
+
+![image](https://github.com/user-attachments/assets/8e201e5a-c176-4859-94b0-f2e9f43a67e9)
+
+
+
+Nested if else
+
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,c;
+    cout << "Enter three numbers: ";
+    cin >>a>>b>>c;
+    if (a==b &&b==c) {
+        cout << "All three numbers are equal." << endl;
+    } else {
+        if (a>b) {
+            if (a>c) {
+                cout << "The greatest number is " <<a<< "." << endl;
+            } else {
+                cout << "The greatest number is " <<c<< "." << endl;
+            }
+        } else {
+            if (b>c) {
+                cout << "The greatest number is " <<b<< "." << endl;
+            } else {
+                cout << "The greatest number is " <<c<< "." << endl;
+            }
+        }
     }
-    else{
-        cout<<"both are equal";
+    return 0;
+}
+```
 
+o/p:
+
+o/p:![image](https://github.com/user-attachments/assets/57c88e6e-7c87-4fea-bfee-e9fd1c8c23f7)
+
+else if:
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout<<"Enter a number:";
+    cin>>n;
+
+    if (n>0) {
+        cout<<"The number is positive."<< endl;
+    } 
+    else if (n<0) {
+        cout<<"The number is negative."<<endl;
+    } 
+    else {
+        cout<<"The number is zero."<<endl;
     }
     return 0;
 }
 ```
 o/p:
-![image](https://github.com/user-attachments/assets/a98c7aa9-4edc-4cd5-af62-77602c692421)
 
-Nested if else
-```
-#include <iostream>
-using namespace std;
-int main() {
-int a,b,c;
-cout<<"Enter first no.: ";
-cin>>a;
-cout<<"Enter second no.: ";
-cin>>b;
-cout<<"Enter third: ";
-cin>>c;
-if(a>b) 
-{
-if(a>c) {
 
-cout<<a<<" is the greatest number"<<endl;
-}
-else{ 
-cout<<c<<" is the greatest number"<<endl;
-}
-}
-else if(b>a) {
-if(b>c) {
-cout<<b<<" is the greatest number"<<endl;
-}
-else {
-cout<<c<<" is the greatest number"<<endl;
-}
-}
-else {
-cout<<"All three numbers are equal";
-}
+![image](https://github.com/user-attachments/assets/b2735f78-49c2-4a3c-8de7-6159f328be57)
 
-return 0;
-}
-```
-o/p:
-
-![image](https://github.com/user-attachments/assets/2ba17975-b872-4b1f-a4b7-2807e07f690d)
 
 break
 ```
@@ -212,6 +235,13 @@ int main()
 o/p:
 
 ![image](https://github.com/user-attachments/assets/100308ff-e5d4-415e-a42e-71a91751784b)
+
+CONCLUSION:
+
+C++ decision-making constructs are essential for writing dynamic, responsive programs. They let you to regulate the execution flow according to conditions, enabling your software to adjust to various inputs and situations.
+
+ They contribute to the versatility and quick use of software by making sure that it can react appropriately to a variety of inputs and conditions.
+
 
 
 
