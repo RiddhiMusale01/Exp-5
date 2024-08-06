@@ -1,6 +1,8 @@
 # Experiment 5
 AIM:To study and implement decision making statements.
 
+SOFTWARE: Visual Studio Code
+
 THEORY:
 
 In C++, decision-making statements are used to control the flow of execution based on conditions. They allow you to make decisions in your code and execute different code blocks depending on whether certain conditions are true or false.
